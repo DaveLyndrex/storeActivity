@@ -8,7 +8,7 @@
 <?php   
     if(isset($_GET['logout'])){
         session_destroy(); 
-                header("location:/login.php?logout=true"); 
+                header("location:login.php?logout=true"); 
                     
             }    
         ?>  
